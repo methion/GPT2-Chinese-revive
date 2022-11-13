@@ -5,7 +5,9 @@ cache/.DS_Store
 .idea/misc.xml
 .idea/GPT2-Chinese.iml
 data/
+model/
 .samples.txt
 .idea/modules.xml
 .idea/vcs.xml
 .idea
+tensorboard_summary/

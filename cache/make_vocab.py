@@ -19,7 +19,7 @@ def main():
     print('This script is extremely slow especially for large corpus. Take a break.')
 
     f = open(args.raw_data_path, 'r')
-    lines = json.load(f)
+    lines = json.load(f,strict=False)
     for i, line in enumerate(tqdm(lines)):
         lines[i] = lac.cut(line, text=True)
 
